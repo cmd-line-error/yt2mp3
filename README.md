@@ -18,9 +18,12 @@ YOU MUST HAVE FFMPEG INSTALLED TO USE THIS PROGRAM:
 
 Alternatively, the ffmpeg source can be found at https://github.com/FFmpeg/FFmpeg 
 
-If you manually download the libraries be sure to update ydl_opts with:
+If you manually download the libraries or receive the error below be sure to update ydl_opts with:
+
+    Error: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --fmpeg-location
     
-    'ffmpeg_location' : 'C:\\location\to\ffmpeg\\bin\\ffmpeg.exe',
+    Update ydl_opts with:
+    'ffmpeg_location': 'C:\\location\\to\\ffmpeg\\bin\\ffmpeg.exe',
 
 
 MAIN PYTHON SCRIPT IS LOCATED IN /pub/yt2mp3.py 
