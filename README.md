@@ -1,3 +1,5 @@
+Downloads AUDIO ONLY from any YouTube video. 
+
 Built in Python 3.12.4
 
 Install requirements.txt with pip from main directory.
@@ -18,7 +20,7 @@ YOU MUST HAVE FFMPEG INSTALLED TO USE THIS PROGRAM:
     choco install ffmpeg
 
 
-Alternatively, the ffmpeg source can be found at https://github.com/FFmpeg/FFmpeg 
+Alternatively, the ffmpeg source mirror can be found at https://github.com/FFmpeg/FFmpeg 
 
 If you manually download the ffmpeg libraries or receive the error "Error: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --fmpeg-location"
 
