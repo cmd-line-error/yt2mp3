@@ -2,7 +2,10 @@ Downloads .mp3 AUDIO ONLY from any YouTube video.
 
 Built in Python 3.12.4
 
-Install requirements.txt with pip from main directory.
+1. Install requirements.txt with pip from main directory or manually install yt_dlp
+2. Install ffmpeg
+3. Run /pub/yt2mp3.py
+
 
 YOU MUST HAVE FFMPEG INSTALLED TO USE THIS PROGRAM: 
 
