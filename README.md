@@ -1,9 +1,12 @@
 Built in Python 3.12.4
 
-Run in venv and install requirements.txt from main directory.
+Install requirements.txt with pip from main directory.
 
 YOU MUST HAVE FFMPEG INSTALLED TO USE THIS PROGRAM: 
 
+    Install in Main Python Library:
+    pip install ffmpeg
+    
     Ubuntu and debian (in pkg manager):
     sudo apt-get install ffmpeg
 
