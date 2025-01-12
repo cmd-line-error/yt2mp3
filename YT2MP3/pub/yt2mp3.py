@@ -48,6 +48,4 @@ if __name__ == "__main__":
     # Example usage
     url = input("Enter the YouTube video URL: ")
     output_directory = input("Enter the output directory (default: 'downloads'): ") or "downloads"
-    #format_choice = input("Enter the video quality ('best' or 'worst'): ") or "best"
-
     download_video(video_url=url, output_path=output_directory)
