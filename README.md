@@ -1,4 +1,4 @@
-Downloads AUDIO ONLY from any YouTube video. 
+Downloads .mp3 AUDIO ONLY from any YouTube video. 
 
 Built in Python 3.12.4
 
@@ -10,10 +10,10 @@ YOU MUST HAVE FFMPEG INSTALLED TO USE THIS PROGRAM:
     Install in Main Python Library:
     pip install ffmpeg
     
-    Ubuntu and debian (in pkg manager):
+    Debian/Ubuntu/Linux (in pkg manager):
     sudo apt-get install ffmpeg
 
-    macOS (using brew):
+    MacOS (using brew):
     brew install ffmpeg
 
     Windows (using chocolatery):
