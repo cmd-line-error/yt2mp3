@@ -20,7 +20,7 @@ YOU MUST HAVE FFMPEG INSTALLED TO USE THIS PROGRAM:
 
 Alternatively, the ffmpeg source can be found at https://github.com/FFmpeg/FFmpeg 
 
-If you manually download the libraries or receive the error "Error: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --fmpeg-location"
+If you manually download the ffmpeg libraries or receive the error "Error: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --fmpeg-location"
 
 Update the /pub/yt2mp3.py ydl_opts by adding the following under line 14:
 
