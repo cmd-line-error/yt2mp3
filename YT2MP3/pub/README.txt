@@ -1,16 +1,38 @@
+Downloads .mp3 AUDIO ONLY from any YouTube video. 
+
+Built in Python 3.12.4
+
+1. Install requirements.txt with pip from main directory or manually install yt_dlp (Note for MacOS: Brew's yt-dlp is not the same package, instead download the yt_dlp library manually from https://github.com/yt-dlp/yt-dlp)
+3. Install ffmpeg
+4. Run /pub/yt2mp3.py
+
+
 YOU MUST HAVE FFMPEG INSTALLED TO USE THIS PROGRAM: 
 
-    Ubuntu and debian (in pkg manager):
+
+    Install in Main Python Library:
+    pip install ffmpeg
+    
+    Debian/Ubuntu/Linux (in pkg manager):
     sudo apt-get install ffmpeg
 
-    macOS (using brew):
+    MacOS (using brew):
     brew install ffmpeg
 
     Windows (using chocolatery):
     choco install ffmpeg
 
-Alternatively, the ffmpeg source can be found at https://github.com/FFmpeg/FFmpeg 
 
-If you manually download the libraries be sure to update ydl_opts with:
-    
-    'ffmpeg_location' : 'C:\\location\to\ffmpeg\\bin\\ffmpeg.exe',
+Alternatively, the ffmpeg source mirror can be found at https://github.com/FFmpeg/FFmpeg 
+
+If you manually download the ffmpeg libraries or receive the error 
+
+"Error: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --fmpeg-location":
+
+Update the /pub/yt2mp3.py ydl_opts by adding the following under line 14:
+
+
+    'ffmpeg_location': 'C:\\location\\to\\ffmpeg\\bin\\ffmpeg.exe',
+
+
+MAIN PYTHON SCRIPT IS LOCATED IN /pub/yt2mp3.py 
