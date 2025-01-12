@@ -4,6 +4,7 @@ Install requirements.txt with pip from main directory.
 
 YOU MUST HAVE FFMPEG INSTALLED TO USE THIS PROGRAM: 
 
+
     Install in Main Python Library:
     pip install ffmpeg
     
@@ -16,13 +17,14 @@ YOU MUST HAVE FFMPEG INSTALLED TO USE THIS PROGRAM:
     Windows (using chocolatery):
     choco install ffmpeg
 
+
 Alternatively, the ffmpeg source can be found at https://github.com/FFmpeg/FFmpeg 
 
-If you manually download the libraries or receive the error below be sure to update ydl_opts with:
+If you manually download the libraries or receive the error "Error: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --fmpeg-location"
 
-    Error: Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --fmpeg-location
-    
-    Update ydl_opts with:
+Update the /pub/yt2mp3.py ydl_opts by adding the following under line 14:
+
+
     'ffmpeg_location': 'C:\\location\\to\\ffmpeg\\bin\\ffmpeg.exe',
 
 
