@@ -1,3 +1,5 @@
+Built in Python 3.12.4
+
 YOU MUST HAVE FFMPEG INSTALLED TO USE THIS PROGRAM: 
 
     Ubuntu and debian (in pkg manager):
