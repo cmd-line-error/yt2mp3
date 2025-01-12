@@ -2,7 +2,7 @@ Downloads .mp3 AUDIO ONLY from any YouTube video.
 
 Built in Python 3.12.4
 
-1. Install requirements.txt with pip from main directory or manually install yt_dlp (Note for MacOS: Brew's yt-dlp is not the same package, instead download the yt-dlp library manually from https://github.com/yt-dlp/yt-dlp)
+1. Install requirements.txt with pip from main directory or manually install yt_dlp (Note for MacOS: Brew's yt-dlp is not the same package, instead download the yt_dlp library manually from https://github.com/yt-dlp/yt-dlp)
 3. Install ffmpeg
 4. Run /pub/yt2mp3.py
 
