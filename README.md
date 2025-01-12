@@ -14,3 +14,6 @@ Alternatively, the ffmpeg source can be found at https://github.com/FFmpeg/FFmpe
 If you manually download the libraries be sure to update ydl_opts with:
     
     'ffmpeg_location' : 'C:\\location\to\ffmpeg\\bin\\ffmpeg.exe',
+
+
+MAIN PYTHON SCRIPT IS LOCATED IN /PUB/yt2mp3.py 
