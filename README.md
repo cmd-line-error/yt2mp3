@@ -3,7 +3,7 @@ Downloads .mp3 AUDIO ONLY from any YouTube video.
 Built in Python 3.12.4
 
 For Windows Users: 
-1. Download the YT2MP3 WINDOWS GUI.zip
+1. Download the YT2MP3 WINDOWS GUI.zip here: https://drive.google.com/file/d/1kXZHK50Nfr_F9od_66cOXdeXfhqg88wt/view?usp=drive_link
 2. Unzip
 3. Run that thang
 
